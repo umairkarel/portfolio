@@ -13,17 +13,17 @@ hamburgerButton.addEventListener('click', toggleButton)
 
 
 fetch('src/data.json')
-	.then(res => res.json()) 
-	.then(data => {
-	data.forEach(project => {
-		let div = document.createElement('div');
-		div.classList.add('project-card');
-		detail = `<img class="project-img" src="${project.src}" alt="project">
-				  <h3>${project.name}</h3>
-				  <p class="subtext">${project.about}.</p>
-				  <hr>
-				  <p class="subtext"><a class="project-link" href="${project.link}">view here</a></p>`
-		div.innerHTML = detail
-		project_container.appendChild(div)
-		});		
-	})
+    .then(res => res.json()) 
+    .then(data => {
+    data.forEach(project => {
+        let div = document.createElement('div');
+        div.classList.add('project-card');
+        detail = `<img class="project-img" src="${project.src}" alt="project">
+                  <h3>${project.name}</h3>
+                  <p class="subtext">${project.about}.</p>
+                  <hr>
+                  <p class="subtext"><a class="project-link" href="${project.link}">view here</a></p>`
+        div.innerHTML = detail
+        project_container.appendChild(div)
+        });     
+    })
