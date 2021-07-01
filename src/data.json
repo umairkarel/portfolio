@@ -5,7 +5,7 @@
     {"name": "Hand Written Digit Recognizer", "about": "Digit recognizer from complete scratch using my own neural network", 
      "link": "https://github.com/umairkarel/Machine-Learning/tree/master/Projects/Hand-Written-Digit-Recognizer", "src":"imgs/project2.gif"},
 
-    {"name": "8-Puzzle GUI Solver", "about": "This is a  UI to play the 8 Puzzle game 8-Puzzle game with a solver feature that uses an 𝗔* 𝘀𝗲𝗮𝗿𝗰𝗵 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺 to solve any(valid) instance", 
+    {"name": "8-Puzzle GUI Solver", "about": "This is a  UI to play the 8 Puzzle game and solver using 𝗔* 𝘀𝗲𝗮𝗿𝗰𝗵 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺 to solve any(valid) instance", 
      "link": "#", "src":"imgs/project5.gif"},
 
     {"name": "Linear Regression", "about": "Real time data plotting and visualization of Linear Regression Algorithm with GUI", 
